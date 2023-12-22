@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Новинки компьютерной техники и новейшие разработки</title>
+ <link rel="shortcut icon" href="href="/favicon1.ico">
+ <style type="text/css">
+    .line {
+        border-left: 2px solid #ccc;
+        margin-left: 70px;
+        padding-left: 10px;
+
+        border-right: 2px solid #ccc;
+        margin-right: 70px;
+        padding-right: 10px;
+    }
+
+    link {
+      background-color: #1E4844;
+      color: #fff;
+      padding: 20px;
+    }
+
+  body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+  }
+  
+  header {
+   background-color: #1E4844;
+   color: #fff;
+   padding: 20px;
+  }
+
+  h1 {
+   margin: 0;
+  }
+
+  nav {
+   background-color: #678482;
+   padding: 15px;
+  }
+
+  nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+  }
+
+  nav ul li {
+   display: inline-block;
+   margin-right: 10px;
+  }
+
+  nav ul li a {
+   color: #fff;
+   text-decoration: none;
+   padding: 5px 10px;
+  }
+
+  main {
+   margin: 20px;
+  }
+
+  section {
+   margin-bottom: 20px;
+  }
+
+  h2 {
+   color: #333;
+  }
+
+  p {
+   margin: 0;
+  }
+
+  footer {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+  }
+
+  #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 0;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(175, 175, 175);
+  color: rgb(10, 1, 1);
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #e0abab;
+}
+ </style>
+</head>
+<body>
+  <h1 style = "color: #1c98c9;">NEW</h1>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+ 
+<header>
+  <h1>Новинки компьютерной техники и новейшие разработки</h1>
+ </header>
+ <style>
+  a {
+   color: #000080; /* Цвет обычной ссылки */
+   padding: 100px; /* Поля вокруг текста */
+   margin-top:100px;
+  }
+  a:hover {
+   text-decoration: none; /* Убираем подчёркивание */
+   color: #FFFAC0; /* Цвет ссылки */ 
+   background: #1b5337; /* Цвет фона */
+  }
+ </style>
+ <nav>
+  <ul>
+   <center><li><a href="pc.html">Новые компьютеры</a></li>
+   <li><a href="gar.html">Игровая техника</a></li>
+   <li><a href="sth.html">Умные гаджеты</a></li></center>
+  </ul>
+ </nav>
+
+ <main class="line">
+  <section id="section1">
+   <h2>Новые компьютеры</h2>
+   <p>Здесь будет информация о новейших компьютерах, их характеристиках и возможностях. Мы расскажем о последних технологических разработках в сфере компьютеров и какие улучшения они принесли.</p>
+  </section>
+
+  <section id="section2">
+   <h2>Умные гаджеты</h2>
+   <p>В этом разделе мы рассмотрим самые современные и умные гаджеты, которые доступны на рынке. Они помогут вам в повседневной жизни, облегчат выполнение задач и сделают вашу жизнь более комфортной.</p>
+  </section>
+
+  <section id="section3">
+   <h2>Игровая техника</h2>
+   <p>Тут мы расскажем о последних разработках в сфере игровой техники. Будем описывать новые игровые консоли, компьютеры, виртуальную реальность и другие устройства, которые делают игры еще увлекательнее.</p>
+  </section>
+ </main>
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ <footer>
+  <p>Шомшин Егор © 2023 </p>
+ </footer>
+</body>
+</html>
